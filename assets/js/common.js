@@ -1,10 +1,10 @@
 // * init script
 const tenziro = {
-   init: function () { 
+   init: function () {
       this.spaceCanvas();
       this.AOS();
    },
-   spaceCanvas: function () { 
+   spaceCanvas: function () {
       var canvas = document.getElementById('space');
       var flr = Math.floor;
 
